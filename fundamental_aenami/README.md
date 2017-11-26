@@ -1,4 +1,4 @@
-<!-- ![Image](http://i.imgur.com/0mEZBoJ.png) -->
+![Image](https://i.imgur.com/KuSw646.png)
 
 This is a modified version of isaychris's awesome fundamental theme.
 
