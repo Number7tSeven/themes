@@ -1,6 +1,6 @@
 ![Image](https://i.imgur.com/KuSw646.png)
 
-This is a modified version of isaychris's awesome fundamental theme.
+This is a modified version of iSayChris's awesome fundamental theme.
 
 check it out here: https://github.com/isaychris/themes/tree/master/fundamental/v1.3/dark
 
