@@ -35,11 +35,11 @@
     border-width: 1px;
     border-radius: 5px;
     margin-top: 220px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
     font-size: 25px;
     width: 197px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.2);
     content:"MyAnimeList";
 }
 #inlineContent:hover::after {
@@ -76,8 +76,8 @@ BODY {
 #list_surround .animetitle+small {
     border-style: solid;
     border-width: 1px;
-    border-color: #5675B9;
-    background-color: #5675B9 !important;
+    border-color: #13314E;
+    background-color: #13314E !important;
     margin-left: 8px;
     padding: 5px;
     color: whitesmoke;
@@ -211,16 +211,16 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 */
 
 .header_cw {
-    color: #159957;
+    color: #D40D43;
 }
 .header_completed {
-    color: #337ab7;
+    color: #019ABF;
 }
 .header_onhold {
-    color: #f0ad4e;
+    color: #FF874E;
 }
 .header_dropped {
-    color: #d9534f;
+    color: #FD4D3F;
 }
 .header_ptw {
     color: whitesmoke;
@@ -257,16 +257,16 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     padding: 15px;
     text-align: center;
     margin: 0 auto;
-    border-color: #5675B9 !important;
+    border-color: #13314E !important;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
     color: whitesmoke;
-    background-color: #5675B9;
+    background-color: #13314E;
 }
 #copyright::After {
     white-space: pre !important;
-    content: "\A Layout design by iSayChris";
+    content: "\A Layout design by iSayChris\A Modifications by Number7tSeven\A Art by Aenami";
     margin-bottom: 20px;
 }
 #mal\_control\_strip {
