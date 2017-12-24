@@ -169,9 +169,6 @@ tr:hover .td2, tr:hover .td1 {
     border-style: solid;
     border-width: 1px; */
 }
-.status_not_selected:hover {
-    background-color: #2E333D;
-}
 .status_selected a,
 .status_not_selected a {
     display: block;
