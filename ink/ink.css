@@ -4,15 +4,12 @@
 // Date: 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Homemade+Apple|Great+Vibes');
 
 #inlineContent {
-    background-image: url('https://isaychris.github.io/themes/fundamental/assets/default.png');
-    background-position: center;
-    background-size: cover;
-    box-shadow: 3px 3px 2px 0.3px rgba(0, 0, 0, 0.3);
     height: 200px;
-    width: 200px;
+    width: 920px;
     border-radius: 100px;
     display: flex !important;
     position: absolute;
@@ -22,26 +19,23 @@
     transform: translate(-50%, -50%);
 }
 #inlineContent::after {
-    font-family: "Open Sans";
+    font-family: "Great Vibes";
     position: absolute;
     display: block;
     color: white;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
     padding-top: 3px;
     padding-bottom: 4px;
     border-width: 1px;
     border-radius: 5px;
-    margin-top: 220px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 25px;
-    width: 197px;
+    margin-top: 50%;
+    color: black;
+    font-size: 100px;
+    width: 920px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: transparent;
     content:"MyAnimeList";
-}
-#inlineContent:hover::after {
-    background-color: rgba(255, 255, 255, 0.2);
 }
 body:before {
     content: "";
@@ -53,8 +47,8 @@ body:before {
 BODY {
     margin: 0;
     color: whitesmoke;
-    font-size: 11.00px;
-    font-family: Verdana, Arial;
+    font-size: 16.00px;
+    font-family: 'Cedarville Cursive', cursive;
     background-repeat: repeat;
     background: url("http://knoxmuseum.org/wp-content/uploads/2016/06/vintage-seamless-digital-scrapbooking-paper-textures-002-03.jpg")
 }
@@ -71,13 +65,10 @@ BODY {
     margin-bottom: 25px;
 }
 #list_surround .animetitle+small {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #13314E;
-    background-color: #13314E !important;
+    border-style: none;
     margin-left: 8px;
     padding: 5px;
-    color: whitesmoke;
+    color: red;
     border-radius: 5px;
     opacity: 1 !important;
 }
@@ -86,15 +77,15 @@ BODY {
 */
 
 a {
-    color: whitesmoke;
+    color: black;
     text-decoration: underline;
 }
 a:visited {
-    color: whitesmoke;
+    color: black;
     text-decoration: underline;
 }
 a:hover {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 /*
@@ -102,10 +93,10 @@ a:hover {
 */
 
 .td1 {
-    color: whitesmoke;
+    color: black;
     border-color: #ABABAB;
     padding: 2px;
-    background-color: #393F4C;
+    background-color: transparent;
     line-height: 25px;
 }
 /*
@@ -113,10 +104,10 @@ a:hover {
 */
 
 .td2 {
-    color: whitesmoke;
+    color: black;
     border-color: #ABABAB;
     padding: 2px;
-    background-color: #393F4C;
+    background-color: transparent;
     line-height: 25px;
 }
 
@@ -125,7 +116,7 @@ a:hover {
 */
 
 tr:hover .td2, tr:hover .td1 {
-    background-color: #4D5667 !important;
+    background-color: transparent !important;
 }
 
 /*
@@ -133,9 +124,9 @@ tr:hover .td2, tr:hover .td1 {
 */
 
 .table_header {
-    color: whitesmoke;
+    color: black;
     border-color: #ddd;
-    background-color: #2E333D;
+    background-color: transparent;
     padding: 2px;
     border-style: solid;
     border-width: 0px 0px 1px 0px !important;
@@ -146,13 +137,14 @@ tr:hover .td2, tr:hover .td1 {
 */
 
 .table_headerLink {
-    color: whitesmoke;
+    color: black;
+    font-size: 20px;
 }
 .table_headerLink:Visited {
-    color: whitesmoke;
+    color: black;
 }
 .table_headerLink:Hover {
-    color: whitesmoke;
+    color: black;
 }
 /*
 // Controls the select form decoration (the drop down select box)
@@ -169,14 +161,13 @@ tr:hover .td2, tr:hover .td1 {
 }
 /* Which 'status' up top is selected? */
 
-.status_selected {
-    color: #000000;
-    border-color: #ABABAB;
-    padding: 2px;
-    background-color: #2E333D;
-    border-color: #4D5667;
+.status_selected a {
+    color: red;
+    /* padding: 2px;
+    background-color: none;
+    border-color: transparent;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .status_not_selected:hover {
     background-color: #2E333D;
@@ -185,21 +176,21 @@ tr:hover .td2, tr:hover .td1 {
 .status_not_selected a {
     display: block;
     padding: 10px;
+    font-weight: bold;
 }
-.status_not_selected:first-of-type,
+/* .status_not_selected:first-of-type,
 .status_selected:first-of-type {
     border-radius: 5px 0px 0px 5px;
-}
+} */
 .status_not_selected:last-of-type,
 .status_selected:last-of-type {
     border-radius: 0px 5px 5px 0px;
 }
 .status_not_selected {
     color: #000000;
-    border-color: #ABABAB;
+    border-color: transparent;
     padding: 2px;
-    background-color: #393F4C;
-    border-color: #4D5667;
+    background-color: transparent;
     border-style: solid;
     border-width: 1px;
 }
@@ -208,30 +199,30 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 */
 
 .header_cw {
-    color: #D40D43;
+    color: black;
 }
 .header_completed {
-    color: #019ABF;
+    color: black;
 }
 .header_onhold {
-    color: #FF874E;
+    color: black;
 }
 .header_dropped {
-    color: #FD4D3F;
+    color: black;
 }
 .header_ptw {
-    color: whitesmoke;
+    color: black;
 }
 .header_title {
     padding-bottom: 4px;
     font-size: 30px;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Homemade Apple', cursive;
 }
 .category_totals {
     padding: 10px;
     text-align: center;
-    color: whitesmoke;
-    background-color: #393F4C;
+    color: black;
+    background-color: transparent;
 }
 #grand_totals {
     display: none;
@@ -249,6 +240,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 
 .animetitle {
     font-weight: bold;
+    font-size: 20px;
 }
 #copyright {
     padding: 15px;
@@ -400,7 +392,7 @@ Top
 */
 
 .table_header {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px 0 1px !important;
 }
@@ -409,13 +401,13 @@ Top sides
 */
 
 td.table_header:first-of-type {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px 0 1px 1px !important;
     border-radius: 5px 0 0 0;
 }
 td.table_header:last-of-type {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px 1px 1px 0 !important;
     border-radius: 0 5px 0 0;
@@ -426,13 +418,13 @@ Sides of list table (anime/manga entries)
 
 .td1:first-of-type,
 .td2:first-of-type {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 0 0 0px 1px !important;
 }
 .td1:last-of-type,
 .td2:last-of-type {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 0 1px 0px 0 !important;
 }
@@ -441,7 +433,7 @@ Bottom and bottom sides
 */
 
 .category_totals {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 0 1px 1px !important;
     border-radius: 0 0 5px 5px;
@@ -472,6 +464,7 @@ tr:hover td.td2 small {
 /*
 COVERS MOD
 */
+/*
 .hide {
     background-color: rgba(0, 0, 0, 0);
     background-position: center;
@@ -511,6 +504,7 @@ COVERS MOD
     width: 37px;
     z-index: 20;
 }
+*/
 
 td.td1:nth-of-type(1), td.td2:nth-of-type(1), .table_header:nth-of-type(2) a {
     padding-right: 54px !important;
