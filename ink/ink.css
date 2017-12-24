@@ -243,16 +243,16 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     padding: 15px;
     text-align: center;
     margin: 0 auto;
-    border-color: #13314E !important;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    color: whitesmoke;
-    background-color: #13314E;
+    color: black;
+    background-color: transparent;
 }
 #copyright::After {
     white-space: pre !important;
-    content: "\A Layout design by iSayChris\A Art by Aenami\A Modifications by Number7tSeven";
+    content: "\A Layout design by Number7tSeven";
     margin-bottom: 20px;
 }
 #mal\_control\_strip {
@@ -441,7 +441,7 @@ Other tables at bottom
 
 #grand_totals,
 #copyright {
-    border-color: #4D5667;
+    border-color: transparent;
     border-style: solid;
     border-width: 1px !important;
 }
